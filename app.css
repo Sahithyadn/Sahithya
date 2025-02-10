@@ -1,0 +1,178 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #4b0082; /* Violet text */
+}
+
+/* Container for the entire application */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  color: #4b0082; /* Violet */
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Menu styles */
+.menu {
+  margin-bottom: 40px;
+}
+
+.menu h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  color: #4b0082;
+}
+
+/* Form styling */
+.form-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+.form-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-container button {
+  padding: 10px 15px;
+  background-color: #4b0082;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #6a0dad;
+}
+
+/* Alert Message */
+.alert {
+  padding: 10px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Seats Available */
+.available-seats {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #4b0082;
+}
+
+/* Reservation Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table th,
+table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4b0082;
+  color: #ffffff;
+}
+
+table td {
+  background-color: #f9f9f9;
+}
+
+table td button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4b0082;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+table td button:hover {
+  background-color: #6a0dad;
+}
+
+table td button:disabled {
+  background-color: #c6c6c6;
+  cursor: not-allowed;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .menu ul li {
+    font-size: 1rem;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .form-container input {
+    padding: 10px;
+  }
+
+  .form-container button {
+    padding: 12px;
+    font-size: 1rem;
+  }
+}
